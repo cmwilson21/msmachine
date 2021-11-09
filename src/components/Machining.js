@@ -31,7 +31,7 @@ const Machining = () => {
             <CardActionArea>
               <CardMedia
                 component="img"
-                height="140"
+                height="200"
                 image="https://images.unsplash.com/photo-1599728613885-bc908f9d6d04?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
                 alt="cnc machine"
               />
@@ -40,7 +40,7 @@ const Machining = () => {
                   CNC Precision Machining
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
-                  Your business demands the highest quality machining. Whether it requires a single, highly-specialized part or thousands, Mid-South provides a complete range of CNC services, including milling, turning, and grinding. By offering the capacity for long-run production or short-term contract work, we can customize our relationship to best suit your needs.
+                  Your business demands the highest quality machining. Whether it requires a single, highly-specialized part or thousands, we provide a complete range of CNC services, including milling, turning, and grinding. By offering the capacity for long-run production or short-term contract work, we can customize our relationship to best suit your needs.
                 </Typography>
                 <Accordion style={{ margin: "10px" }}>
                   <AccordionSummary
@@ -48,12 +48,11 @@ const Machining = () => {
                     aria-controls="panel1a-content"
                     id="panel1a-header"
                   >
-                    <Typography>Machine List</Typography>
+                    <Typography>Services</Typography>
                   </AccordionSummary>
                   <AccordionDetails>
                     <Typography>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-                      malesuada lacus ex, sit amet blandit leo lobortis eget.
+                    CNC Precision Milling &nbsp;||&nbsp; 3-D Milling &nbsp;||&nbsp; CNC Precision Turning &nbsp;||&nbsp; Live-Tool Turning &nbsp;|| 4th Axis Machining &nbsp;||&nbsp; Horizontal Milling &nbsp;||&nbsp; Surface Grinding &nbsp;||&nbsp; Blanchard Grinding
                     </Typography>
                   </AccordionDetails>
                 </Accordion>
@@ -70,16 +69,17 @@ const Machining = () => {
             <CardActionArea>
               <CardMedia
                 component="img"
-                height="140"
-                image="https://images.unsplash.com/photo-1599728613885-bc908f9d6d04?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+                height="200"
+                image="https://images.unsplash.com/photo-1601045378965-58f245425f7f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1931&q=80"
                 alt="cnc machine"
               />
               <CardContent>
                 <Typography gutterBottom variant="h5" component="div">
-                  CNC Precision Machining
+                  Expanding Capabilities
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
-                  Your business demands the highest quality machining. Whether it requires a single, highly-specialized part or thousands, Mid-South provides a complete range of CNC services, including milling, turning, and grinding. By offering the capacity for long-run production or short-term contract work, we can customize our relationship to best suit your needs.
+                  We are always explanding and upgrading our capabilities to meet the needs of our customers. Have a special project in mind? We can help. 
+                  We can also provide a complete range of services to meet your needs. With our extensive network of professionals, if we don't have it in house, we have a source for it.
                 </Typography>
                 <Accordion style={{ margin: "10px" }}>
                   <AccordionSummary
