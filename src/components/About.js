@@ -41,6 +41,7 @@ const About = () => {
                 <Typography variant="body2" color="text.secondary">
                   Since it's humble beginnings founded in the basement of a grocery store in 1984, Mid-South Machine has grown a legacy of quality services and products. From prototype to production, we lend our expertise along every step of the way. We have proudly been serving the automotive, valve, boiler, oil and gas, construction, heavy equipment, machine building, and nuclear power industries for over 35 years.
                 </Typography> 
+                ---
                 <Typography variant="body2" color="text.secondary">
                   We offer a full range of CNC services, including milling and turning. We also offer Blanchard grinding, fabrication (large jigs to small, precise TIG weldments), warehousing, blanket work (from a few parts a month to 1200 a day for some customers), and a temperature controlled Quality Control lab featuring a wide range of measuring tools and a Zeiss CMM.
                 </Typography>
