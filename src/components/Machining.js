@@ -23,8 +23,9 @@ const Machining = () => {
 
   return (
     // <Grid container spacing={2} style={{margin: "2px"}}>
-    <Grid container rowSpacing={1} columnSpacing={{ xs: 1, sm: 2, md: 3 }}>
-      <Grid item xs={6} md={4}>
+    <Grid container rowSpacing={1} columnSpacing={{ xs: 1, sm: 2, md: 3 }} alignItems="center" justifyContent="center">
+      {/* <Grid item xs={6} md={4}> */}
+      <Grid item width="auto" sx={{ display: "center", margin: "12px" }}>
         <Item>
           <Card sx={{ maxWidth: 500 }}>
             <CardActionArea>
@@ -62,7 +63,8 @@ const Machining = () => {
         </Item>
       </Grid>
 
-      <Grid item xs={6} md={4}>
+       {/* <Grid item xs={6} md={4}> */}
+       <Grid item width="auto" sx={{ display: "center", margin: "12px" }}>
         <Item>
           <Card sx={{ maxWidth: 500 }}>
             <CardActionArea>
@@ -99,8 +101,9 @@ const Machining = () => {
           </Card>
         </Item>
       </Grid>
-      
-      <Grid item xs={6} md={4}>
+  {/*       
+      <Grid item xs={6} md={4}> 
+      <Grid item width="auto" sx={{ display: "center", margin: "12px" }}>
         <Item>
           <Card sx={{ maxWidth: 500 }}>
             <CardActionArea>
@@ -136,7 +139,7 @@ const Machining = () => {
             </CardActionArea>
           </Card>
         </Item>
-      </Grid>
+      </Grid>  */}
 
       {/* <Grid item xs={6} md={4}>
         <Item>
