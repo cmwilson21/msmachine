@@ -11,6 +11,10 @@ import Quality from './components/Quality';
 import Careers from './components/Careers';
 
 function App() {
+
+  const d = new Date();
+  let year = d.getFullYear()
+
   return (
     // <header className="App-header">
         <div className="App">
@@ -26,6 +30,7 @@ function App() {
             <Route exact path="/quality" element={<Quality />} />
             <Route exact path="/careers" element={<Careers />} />
           </Routes>
+          <footer align="center" className="footer--pin">Mid-South Machine {year}</footer>
         </Router>
       {/* </header> */}
     </div>
