@@ -61,3 +61,8 @@
 .navbar_link:hover {
   background-color: rgb(145, 12, 12);
 }
+
+.msm-logo {
+  padding-top: 100px;
+  padding-bottom: 20px;
+}
